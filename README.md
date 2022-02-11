@@ -21,6 +21,7 @@ ForeignKey is a widget to make lists of data available for selection based on an
 * `enum` and `enumNames`, The dropdown values and options
     * Leave it emtpy (`[]`) to enable the widget to query the first page as default options
 * `widget`, Set the widget value as `MaterialFormForeignKey`
+* `default`, The default value to be included
 
 ### Example
 ```
@@ -43,9 +44,33 @@ foreignkey: {
 
 
 # ForeignKeyMultiple
-
-
+As with the ForeignKey widget, the ForeignKeyMultiple widget allows you to select multiple records. It can be used to handle one-to-many or many-to-many relationships.
 ![Labii ForeignKeyMultiple widget](./media/labii-widget-foreignkeymultiple.png)
+
+### Usage
+The usage is identical to the ForeignKey widget.
+
+### Configuration
+The Configuration is identical to the ForeignKey widget.
+
+### Example
+```
+foreignkeymulti: {
+    title: "MaterialFormForeignKeyMultiple",
+    type: "array",
+    url: getAPI({
+        name: 'anno',
+        table: Tables["applications"],
+        level: 'organization',
+        sid: "ehkn0a40x1glqvAFKP",
+        serializer: 'name',
+        get: "page_size=5"
+    }),
+    enum: [],
+    enumNames: [],
+    widget: "MaterialFormForeignKeyMultiple"
+},
+```
 
 # About Labii Inc.
 [Labii (https://www.labii.com)](https://www.labii.com) facilitates research and development by providing a user-friendly, customizable Electronic Lab Notebook (ELN) and Laboratory Information Management System (LIMS) to document, manage, and interpret data. Labii ELN & LIMS can be configured for any type of data, and the functions can easily be enhanced and expanded by stand-alone applications. We address the unique needs of each of our customers and are the trusted provider of hundreds of biotech companies and academic labs.
