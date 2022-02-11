@@ -8,6 +8,9 @@ The widgets are developed using [Materialize CSS](https://materializecss.com/sel
 ForeignKey is a widget to make lists of data available for selection based on an API URL. In the edit mode, it enbles you to choose a record from dropdown; in the read-only mode, ForeignKey presents a clickable link for whichever value has been chosen. This tool is usually found in cases where only one piece of information needs to be referred to.
 ![Labii ForeignKeyMultiple widget](./media/labii-widget-foreignkey.png)
 
+### Documentation
+[https://docs.labii.com](https://docs.labii.com/widgets/column-widgets/form#foreignkey)
+
 ### Usage
 1. Click the field to display the dropdown
 2. Type any terms
@@ -42,10 +45,12 @@ foreignkey: {
 },
 ```
 
-
 # ForeignKeyMultiple
 As with the ForeignKey widget, the ForeignKeyMultiple widget allows you to select multiple records. It can be used to handle one-to-many or many-to-many relationships.
 ![Labii ForeignKeyMultiple widget](./media/labii-widget-foreignkeymultiple.png)
+
+### Documentation
+[https://docs.labii.com](https://docs.labii.com/widgets/column-widgets/form#foreignkeys)
 
 ### Usage
 The usage is identical to the ForeignKey widget.
