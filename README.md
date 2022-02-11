@@ -24,7 +24,7 @@ ForeignKey is a widget to make lists of data available for selection based on an
 * `default`, The default value to be included
 
 ### Example
-```
+```javascript
 foreignkey: {
     title: "MaterialFormForeignKey",
     type: "string",
@@ -54,7 +54,7 @@ The usage is identical to the ForeignKey widget.
 The Configuration is identical to the ForeignKey widget.
 
 ### Example
-```
+```javascript
 foreignkeymulti: {
     title: "MaterialFormForeignKeyMultiple",
     type: "array",
