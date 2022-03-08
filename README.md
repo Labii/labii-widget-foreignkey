@@ -1,7 +1,5 @@
 # Labii ForeignKey and ForignKeys widget
 
-## Overview
-
 When you are documenting the data in Electronic Lab Notebook (ELN) and Laboratory Information Management System (LIMS), it is often necessary to refer to another record for clarification. For instance, if you are mentioning an experiment in your report, you may wish to show which protocol was used. One way of doing this would be with the ForeignKey or ForeignKeyMultiple widgets developed by [Labii Inc.](https://www.labii.com).
 
 The widgets are developed using [Materialize CSS](https://materializecss.com/select.html) Select component, so it is required that the necessary packages are installed before using them.
