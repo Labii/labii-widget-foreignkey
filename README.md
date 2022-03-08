@@ -1,4 +1,6 @@
-# Overview
+# Labii ForeignKey and ForignKeys widget
+
+## Overview
 
 When you are documenting the data in Electronic Lab Notebook (ELN) and Laboratory Information Management System (LIMS), it is often necessary to refer to another record for clarification. For instance, if you are mentioning an experiment in your report, you may wish to show which protocol was used. One way of doing this would be with the ForeignKey or ForeignKeyMultiple widgets developed by [Labii Inc.](https://www.labii.com).
 
@@ -6,7 +8,7 @@ The widgets are developed using [Materialize CSS](https://materializecss.com/sel
 
 This page is available at [https://labii.github.io/labii-widget-foreignkey/](https://labii.github.io/labii-widget-foreignkey/)
 
-# ForeignKey
+## ForeignKey
 ForeignKey is a widget to make lists of data available for selection based on an API URL. In the edit mode, it enbles you to choose a record from dropdown; in the read-only mode, ForeignKey presents a clickable link for whichever value has been chosen. This tool is usually found in cases where only one piece of information needs to be referred to.
 ![Labii ForeignKeyMultiple widget](./media/labii-widget-foreignkey.png)
 
@@ -79,5 +81,5 @@ foreignkeymulti: {
 },
 ```
 
-# About Labii Inc.
+## About Labii Inc.
 [Labii (https://www.labii.com)](https://www.labii.com) facilitates research and development by providing a user-friendly, customizable Electronic Lab Notebook (ELN) and Laboratory Information Management System (LIMS) to document, manage, and interpret data. Labii ELN & LIMS can be configured for any type of data, and the functions can easily be enhanced and expanded by stand-alone applications. We address the unique needs of each of our customers and are the trusted provider of hundreds of biotech companies and academic labs.
