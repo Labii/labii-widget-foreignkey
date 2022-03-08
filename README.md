@@ -4,6 +4,8 @@ When you are documenting the data in Electronic Lab Notebook (ELN) and Laborator
 
 The widgets are developed using [Materialize CSS](https://materializecss.com/select.html) Select component, so it is required that the necessary packages are installed before using them.
 
+This page is available at [https://labii.github.io/labii-widget-foreignkey/](https://labii.github.io/labii-widget-foreignkey/)
+
 # ForeignKey
 ForeignKey is a widget to make lists of data available for selection based on an API URL. In the edit mode, it enbles you to choose a record from dropdown; in the read-only mode, ForeignKey presents a clickable link for whichever value has been chosen. This tool is usually found in cases where only one piece of information needs to be referred to.
 ![Labii ForeignKeyMultiple widget](./media/labii-widget-foreignkey.png)
